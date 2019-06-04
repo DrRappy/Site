@@ -1,12 +1,12 @@
 <?php
 
-    $con = mysqli_connect ('188.214.20.2','root','');
+    $con = mysqli_connect ('127.0.0.1','root','');
 
     if (!con)
     {
       echo 'Not connected To Server';
     }
-    if (!mysqli_select_db($con,'unhcfpdh_ideeclient'))
+    if (!mysqli_select_db($con,'aragifts'))
     {
       echo 'Database Not Selected';
     }
