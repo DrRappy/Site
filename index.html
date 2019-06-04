@@ -1,25 +1,19 @@
-<html>
-<head>
-  <title>Ideea ta prinde viață</title>
-  <link rel="stylesheet" type="text/css" href="style.css"
-</head>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Insert Form Data</title>
+  </head>
+  <body>
+      <form action="insert.php" method="post">
 
-<body>
-    <div class="contact-title">
-      <h1>Te iubesc! <3</h1>
-      <h2>Noi ascultăm ideile voastre și le punem în aplicare pe cele mai bune</h2>
-    </div>
-
-    <div class="contact-form">
-        <form id="contact-form" method="post" action="contact-form.php">
-        <input name="name" type="text" class="form-control" placeholder="Nume" required>
-        <br>
-        <input name="email" type="email" class="form-control" placeholder="E-mail" required>
-        <br>
-        <textarea name="message" class="form-control" placeholder="Message" row="4" required>
-        </textarea>
-        <br>
-        <input type="submit" class="form-control submit" value="Trimite ideea!">
-
-</body>
+        Name: <input type="text" name="username">
+              <br/>
+        Email: <input type="text" name="email">
+              <br/>
+        Message: <input type="text" name="message">
+              <br/>
+              <input type="submit" value="Insert">
+      </form>
+  </body>
 </html>
